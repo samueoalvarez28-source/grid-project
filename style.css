@@ -123,6 +123,87 @@ body{
     background-color: rgb(0, 153, 255);;
     grid-column: 1/2;
     grid-row: 1/4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 300px 400px;
+    color: white;
+    font-weight: bold;
+    
+}
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(0, 153, 255);
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 10px;
+    padding-top: 10px;
+    gap: 10px;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+    p{
+        font-size: 25px;
+               
+    }
+}
+.mitaddashboard{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px; 
+    
+    grid-column: 1;
+    grid-row: 2;
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+        list-style: none;
+    }
+    li {
+        background-repeat: no-repeat;
+        background-position: left center;
+        margin-bottom: 10px;
+        display: flex;
+        gap: 15px;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+    
+    }
+}
+.finaldashboard{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 20px; 
+    
+    grid-column: 1;
+    grid-row: 3;
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+        list-style: none;
+    }
+    li {
+        background-repeat: no-repeat;
+        background-position: left center;
+        margin-bottom: 10px;
+        display: flex;
+        gap: 15px;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+    
+    }
 }
 .content{
     background-color: oklch(92.8% 0.006 264.531);;
@@ -130,7 +211,7 @@ body{
     grid-row: 3/3
 }
 .sidebardos{
-    background-color: oklch(92.8% 0.006 264.531);;
+    background-color: oklch(23.88% 0.01654 264.212);;
     grid-column: 3/4;
     grid-row: 3/4;
 }
